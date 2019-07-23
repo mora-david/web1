@@ -1,0 +1,343 @@
+*{border:0px;
+    margin:0px;}
+    body{font-family: sans-serif;
+    background:#f9f9f9;}
+    
+    
+    
+    ul{
+    list-style:none;
+      background:#00609c;
+      display:block;
+      
+    }
+    
+    nav li:hover{
+      color:#651e2b;
+    font-size:1.5rem;}
+    
+    
+    li{
+        color:white;
+        font-size: 1.2rem;
+      background:#00609c;
+      padding:10px 10px 10px 0;
+      
+    }
+    
+    .hcont{text-align:right;
+      font-size:2rem;
+    padding:10px;
+      margin:10;
+    background:#00609c;
+    color:white;}
+    
+    #menuopt{display:none;
+    }
+    #menuopt.is-active{display:block}
+    
+    #hamburger.is-active{display:block;}
+    
+    .banner{
+      background-image: url("https://www.honda.mx/assets/img/autos/honda/modelos/city2020/divisiones/3.jpg");
+        min-height: 450px;
+        background-size: cover;
+        display:flex;
+    /*     justify-content: center; */
+    
+    }
+    
+    .textobanner{display:flex;
+    flex-direction: column;
+    /* margin-top:130px; */
+    padding:20px;}
+    
+    
+
+    .DW{color:white;
+        font-size:4rem;}
+        .dinamico{color:#ff5100;
+        font-size:3rem;
+        text-align:left;}
+    
+
+        .portafolio{display:flex;
+        margin-top:10px;
+      background:#00609c;
+    height:250px;
+/* align-items: center; */
+flex-direction: column;}
+
+
+
+    .portcuadro{
+      /* width:55%; */
+      font-size: 3rem;
+      color:white;
+      text-align: right;  
+ }
+
+ .portinfo{width: 35%;
+      /* text-align:left; */
+    color:white;
+    font-size: 1rem;
+    /* border-left: 2px solid white; */
+    /* padding: 20px; */
+margin-left:30px;
+}
+    
+    .cuadros{display: flex;
+    flex-direction: column;
+    align-content: flex-end;}
+    
+    .cajas{display:flex;
+    width:80%;
+      justify-content:center;
+    }
+    
+    .cajap{width:33%;
+    box-sizing: border-box;
+    padding:30px;
+    margin:20px;
+    margin-top:20px;
+    flex-wrap: wrap;
+    border-radius:50px;
+    background: rgba(240, 240, 240, 0.3);
+    
+    color:rgb(204, 102, 34)
+    }
+    
+    .contacto{height: 100px;
+    width:100%;
+    background:rgba(0, 204, 255, 0.2);
+    box-sizing: border-box;
+    padding: 33px;
+    display: flex;
+    justify-content: center;
+      margin-top:10px;  
+    
+    }
+    
+    .info1{font-size: 40px;
+    color:white;
+    padding:5px;
+    margin-left:40px}
+    .info2{
+      padding:5px;
+      font-size: 40px;
+        color:rgba(255, 81, 0, 1);}
+    
+    
+        .padre-serv{
+            display:flex;
+            justify-content:center;
+            width:100%;
+          }
+
+
+    .servicios{display:flex;
+    margin:20px 0;
+    justify-content: center;
+      width:90%;
+      flex-wrap: wrap;
+    padding: 5px;
+    
+
+    }
+    
+    /* .ser-1{width:25%;
+      box-sizing: border-box;
+      border-right: 3px solid #58d1e4;
+    display:flex;
+    flex-direction:column;
+      justify-content:center;
+    align-items:center;
+    margin-bottom:50px;
+    font-size: 10px;
+    } */
+
+    .ser-1{width:25%;
+        box-sizing: border-box;
+        border-right: 3px solid #58d1e4;
+      display:flex;
+      flex-direction:column;
+        justify-content:center;
+      align-items:center;
+      margin-bottom:25px;
+      } 
+
+      .ser-1:hover{background:#ece7e7;}
+
+    .ser-1-img{widows: 5px;0px;
+      height:auto;
+      margin:0px 0;
+      font-size:60px;
+      text-align:center;
+    }
+    
+    .ser-1-título{font-size:1.3rem;
+    margin:5px 0;
+}
+
+
+    
+    .ser-1-txt{text-align:center;
+    font-size:1.2rem;
+    margin:10px;
+display: none;}
+    
+    
+    
+    .bann2{
+    background-image:url("https://www.honda.mx/assets/img/autos/honda/modelos/city2020/divisiones/3.jpg");
+    min-height:400px;
+    back ground-size:cover;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+    }
+    
+    .w{display:flex;
+     justify-content:center;   
+    }
+    
+    .white{
+    width:90%;
+      margin:10px 0;
+    display:flex;
+      justify-content:space-around;
+    }
+    
+    .w1{font-size:1.5rem;
+      text-align:center;
+    }
+    
+    .w1:hover{color:red;
+    }
+    
+    .info{display:flex;}
+    
+    
+    
+    .personal{background:#00609c;
+    height:50px;
+      text-align:center;
+      padding:15px;
+      box-sizing:border-box;
+      font-size:1.5rem;
+      color:white;
+      margin-bottom:5px;
+    }
+    
+    
+    .informacionPersonal{display:flex;
+    justify-content:center;
+      background:#1d1e22;
+    }
+    
+    .infcont{background:#1d1e22;
+    display:flex;
+      width:90%;
+      flex-direction:column;
+    }
+    
+    /* .foto{width:20%}
+    .minibio{width:25%;
+    color:white;}
+    
+    .secciones{width:50%;
+    color:white;
+    } */
+
+    .foto{align-self: center;
+    margin-top: 5px;}
+    .minibio{margin-bottom:5px;
+    color:white;
+font-size:0.8rem;}
+    
+    .secciones{
+        margin-bottom:5px;
+    color:white;
+    font-size: 0.8rem;
+    }
+    
+    
+    
+    .js{color:#b9b91c;}
+    .ht5{color:red;}
+    .css33{color:#16b3e4;}
+    
+    
+    @media (min-width: 700px){ 
+    
+      .hcont{display:none;}
+      
+      #menuopt{display:block;}
+      li{display:inline-block;}
+      
+
+      .infcont{
+        display:flex;
+          flex-direction:row;
+        }
+
+.banner{align-items: center;}
+
+
+
+        .DW{color:white;
+    font-size:5rem;}
+    .dinamico{color:#ff5100;
+    font-size:4rem;
+    text-align:right;} 
+
+    .portafolio{
+      flex-direction: row;
+align-items: center;
+}
+
+
+
+  .portcuadro{
+    width:55%;
+    
+}
+
+.portinfo{width: 35%;
+    text-align:left;
+  font-size: 1.5rem;
+  border-left: 2px solid white;
+  padding: 20px;
+}
+
+        .ser-1-título{display:none;
+        }
+        
+        
+            
+            .ser-1-txt{text-align:center;
+            font-size:1.2rem;
+            margin:10px;
+        display: block;}
+
+
+
+
+
+
+
+
+
+
+
+      .foto{width:20%;
+    }
+
+    .minibio{width:25%;
+    color:white;}
+    
+    .secciones{width:50%;
+    color:white;
+    } 
+    
+      }
